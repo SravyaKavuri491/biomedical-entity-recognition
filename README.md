@@ -118,19 +118,17 @@ The model consists of:
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
----
+```
 
 ### 2. Install Dependencies
 ```bash
 pip install -r requirements.txt
-
+```
 ### 3. Train Model
 python train.py
 
 ### 4. Evaluate Model
 python eval.py
-
-
 
 ## References
 
@@ -150,3 +148,6 @@ Some ideas and implementations are inspired by publicly available research and o
 ## License
 
 This project is released under the Public Domain.
+
+
+
