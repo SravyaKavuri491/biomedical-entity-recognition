@@ -118,31 +118,20 @@ The model consists of:
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
-2. Install Dependencies
+
+### 2. Install Dependencies
+```bash
 pip install -r requirements.txt
-3. Train Model
+
+### 3. Train Model
 python train.py
-4. Evaluate Model
+
+### 4. Evaluate Model
 python eval.py
- Evaluation Metrics
 
-Token-level Accuracy
 
-Training Loss
 
-Validation Loss
-
- Future Work
-
-Integrate CRF layer for better sequence decoding
-
-Use pre-trained models (BioBERT, BERT)
-
-Improve generalization across domains
-
-Add F1-score and precision/recall metrics
-
- References
+## References
 
 This project is developed using:
 
@@ -152,11 +141,11 @@ BioBERT and transformer-based approaches
 
 Open-source NLP implementations
 
- Disclaimer
+## Disclaimer
 
 This project is created as part of a semester academic project for learning purposes.
 Some ideas and implementations are inspired by publicly available research and online resources.
 
- License
+## License
 
 This project is released under the Public Domain.
